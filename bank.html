@@ -1,0 +1,853 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Title</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="css/libs.min.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/responsive.css">
+		<script src="js/libs.min.js"></script>
+		<script src="js/scripts.js"></script>
+	</head>
+	<body>
+		<div class="popup popup_search">
+		    <div class="popup__container container">
+		        <div class="popup__window">
+		            <div class="popup__head">
+		            	<div class="popup__close"><i class="icon icon-cross-black-big"></i></div>
+		            	<div class="popup__btn-big checkbox-line">
+							<div class="checkbox-line__item"><input type="checkbox" id="btn-big-1" name="btn-big"><label for="btn-big-1">москва</label></div>
+							<div class="checkbox-line__item"><input type="checkbox" id="btn-big-2" name="btn-big"><label for="btn-big-2">новая москва</label></div>
+							<div class="checkbox-line__item"><input type="checkbox" id="btn-big-3" name="btn-big"><label for="btn-big-3">московская область</label></div>
+						</div>
+						<div class="row">
+			            	<div class="popup__btn-small popup__btns-small-checkbox">
+			            		<div class="checkbox-line__item"><input type="checkbox" id="btns-small-checkbox-small-1" name="btns-small-checkbox"><label for="btns-small-checkbox-small-1">Округа</label></div>
+								<div class="checkbox-line__item"><input type="checkbox" id="btns-small-checkbox-small-2" name="btns-small-checkbox"><label for="btns-small-checkbox-small-2">Районы</label></div>
+			            	</div>
+			            	<div class="popup__btn-small popup__btns-small-radio">
+			            		<div class="radio-line__item"><input type="radio" id="btns-small-radio-1" name="btns-small-radio"><label for="btns-small-radio-1">Метро каталог</label></div>
+								<div class="radio-line__item"><input type="radio" id="btns-small-radio-2" name="btns-small-radio"><label for="btns-small-radio-2">Карта метро</label></div>
+			            	</div>
+		            	</div>
+		            	<div class="search__form">
+							<input type="text" class="search__form-input" placeholder="Введите название"><button class="button button_blue"><i class="icon icon-lens-white"></i><span>Найти</span></button>
+						</div>
+		            </div>
+		            <div class="popup__body">
+						<div class="cities">
+							<div class="cities__list">
+								<div class="cities__title">аБВ</div>
+								<div class="row">
+									<div class="col">
+										<div class="cities__checkbox checkbox"><input type="checkbox" id="city-1"><label for="city-1">Воронежский</label></div>
+										<div class="cities__checkbox checkbox"><input type="checkbox" id="city-2"><label for="city-2">Ставропольский округ</label></div>
+										<div class="cities__checkbox checkbox"><input type="checkbox" id="city-3"><label for="city-3">Загородный</label></div>
+										<div class="cities__checkbox checkbox"><input type="checkbox" id="city-4"><label for="city-4">Наверовский</label></div>
+										<div class="cities__checkbox checkbox"><input type="checkbox" id="city-5"><label for="city-5">Ставропольский округ</label></div>
+										<div class="cities__checkbox checkbox"><input type="checkbox" id="city-6"><label for="city-6">Загородный</label></div>
+									</div>
+									<div class="col">
+										<div class="cities__checkbox checkbox"><input type="checkbox" id="city-7"><label for="city-7">Воронежский</label></div>
+										<div class="cities__checkbox checkbox"><input type="checkbox" id="city-8"><label for="city-8">Ставропольский округ</label></div>
+										<div class="cities__checkbox checkbox"><input type="checkbox" id="city-9"><label for="city-9">Загородный</label></div>
+										<div class="cities__checkbox checkbox"><input type="checkbox" id="city-10"><label for="city-10">Наверовский</label></div>
+										<div class="cities__checkbox checkbox"><input type="checkbox" id="city-11"><label for="city-11">Ставропольский округ</label></div>
+										<div class="cities__checkbox checkbox"><input type="checkbox" id="city-12"><label for="city-12">Загородный</label></div>
+									</div>
+									<div class="col">
+										<div class="cities__checkbox checkbox"><input type="checkbox" id="city-13"><label for="city-13">Воронежский</label></div>
+										<div class="cities__checkbox checkbox"><input type="checkbox" id="city-14"><label for="city-14">Ставропольский округ</label></div>
+										<div class="cities__checkbox checkbox"><input type="checkbox" id="city-15"><label for="city-15">Загородный</label></div>
+										<div class="cities__checkbox checkbox"><input type="checkbox" id="city-16"><label for="city-16">Наверовский</label></div>
+										<div class="cities__checkbox checkbox"><input type="checkbox" id="city-17"><label for="city-17">Ставропольский округ</label></div>
+										<div class="cities__checkbox checkbox"><input type="checkbox" id="city-18"><label for="city-18">Загородный</label></div>
+									</div>
+									<div class="col">
+										<div class="cities__checkbox checkbox"><input type="checkbox" id="city-19"><label for="city-19">Воронежский</label></div>
+										<div class="cities__checkbox checkbox"><input type="checkbox" id="city-20"><label for="city-20">Ставропольский округ</label></div>
+										<div class="cities__checkbox checkbox"><input type="checkbox" id="city-21"><label for="city-21">Загородный</label></div>
+										<div class="cities__checkbox checkbox"><input type="checkbox" id="city-22"><label for="city-22">Наверовский</label></div>
+										<div class="cities__checkbox checkbox"><input type="checkbox" id="city-23"><label for="city-23">Ставропольский округ</label></div>
+										<div class="cities__checkbox checkbox"><input type="checkbox" id="city-24"><label for="city-24">Загородный</label></div>
+									</div>
+								</div>
+								<div class="cities__title">Где</div>
+								<div class="row">
+									<div class="col">
+										<div class="cities__checkbox checkbox"><input type="checkbox" id="city-01"><label for="city-01">Воронежский</label></div>
+										<div class="cities__checkbox checkbox"><input type="checkbox" id="city-02"><label for="city-02">Ставропольский округ</label></div>
+										<div class="cities__checkbox checkbox"><input type="checkbox" id="city-03"><label for="city-03">Загородный</label></div>
+										<div class="cities__checkbox checkbox"><input type="checkbox" id="city-04"><label for="city-04">Наверовский</label></div>
+										<div class="cities__checkbox checkbox"><input type="checkbox" id="city-05"><label for="city-05">Ставропольский округ</label></div>
+										<div class="cities__checkbox checkbox"><input type="checkbox" id="city-06"><label for="city-06">Загородный</label></div>
+									</div>
+									<div class="col">
+										<div class="cities__checkbox checkbox"><input type="checkbox" id="city-07"><label for="city-07">Воронежский</label></div>
+										<div class="cities__checkbox checkbox"><input type="checkbox" id="city-08"><label for="city-08">Ставропольский округ</label></div>
+										<div class="cities__checkbox checkbox"><input type="checkbox" id="city-09"><label for="city-09">Загородный</label></div>
+										<div class="cities__checkbox checkbox"><input type="checkbox" id="city-010"><label for="city-010">Наверовский</label></div>
+										<div class="cities__checkbox checkbox"><input type="checkbox" id="city-011"><label for="city-011">Ставропольский округ</label></div>
+										<div class="cities__checkbox checkbox"><input type="checkbox" id="city-012"><label for="city-012">Загородный</label></div>
+									</div>
+									<div class="col">
+										<div class="cities__checkbox checkbox"><input type="checkbox" id="city-013"><label for="city-013">Воронежский</label></div>
+										<div class="cities__checkbox checkbox"><input type="checkbox" id="city-014"><label for="city-014">Ставропольский округ</label></div>
+										<div class="cities__checkbox checkbox"><input type="checkbox" id="city-015"><label for="city-015">Загородный</label></div>
+										<div class="cities__checkbox checkbox"><input type="checkbox" id="city-016"><label for="city-016">Наверовский</label></div>
+										<div class="cities__checkbox checkbox"><input type="checkbox" id="city-017"><label for="city-017">Ставропольский округ</label></div>
+										<div class="cities__checkbox checkbox"><input type="checkbox" id="city-018"><label for="city-018">Загородный</label></div>
+									</div>
+									<div class="col">
+										<div class="cities__checkbox checkbox"><input type="checkbox" id="city-019"><label for="city-019">Воронежский</label></div>
+										<div class="cities__checkbox checkbox"><input type="checkbox" id="city-020"><label for="city-020">Ставропольский округ</label></div>
+										<div class="cities__checkbox checkbox"><input type="checkbox" id="city-021"><label for="city-021">Загородный</label></div>
+										<div class="cities__checkbox checkbox"><input type="checkbox" id="city-022"><label for="city-022">Наверовский</label></div>
+										<div class="cities__checkbox checkbox"><input type="checkbox" id="city-023"><label for="city-023">Ставропольский округ</label></div>
+										<div class="cities__checkbox checkbox"><input type="checkbox" id="city-024"><label for="city-024">Загородный</label></div>
+									</div>
+								</div>
+								<div class="cities__title">ЖЗИ</div>
+																<div class="row">
+									<div class="col">
+										<div class="cities__checkbox checkbox"><input type="checkbox" id="city-001"><label for="city-001">Воронежский</label></div>
+										<div class="cities__checkbox checkbox"><input type="checkbox" id="city-002"><label for="city-002">Ставропольский округ</label></div>
+										<div class="cities__checkbox checkbox"><input type="checkbox" id="city-003"><label for="city-003">Загородный</label></div>
+										<div class="cities__checkbox checkbox"><input type="checkbox" id="city-004"><label for="city-004">Наверовский</label></div>
+										<div class="cities__checkbox checkbox"><input type="checkbox" id="city-005"><label for="city-005">Ставропольский округ</label></div>
+										<div class="cities__checkbox checkbox"><input type="checkbox" id="city-006"><label for="city-006">Загородный</label></div>
+									</div>
+									<div class="col">
+										<div class="cities__checkbox checkbox"><input type="checkbox" id="city-007"><label for="city-007">Воронежский</label></div>
+										<div class="cities__checkbox checkbox"><input type="checkbox" id="city-008"><label for="city-008">Ставропольский округ</label></div>
+										<div class="cities__checkbox checkbox"><input type="checkbox" id="city-009"><label for="city-009">Загородный</label></div>
+										<div class="cities__checkbox checkbox"><input type="checkbox" id="city-0010"><label for="city-0010">Наверовский</label></div>
+										<div class="cities__checkbox checkbox"><input type="checkbox" id="city-0011"><label for="city-0011">Ставропольский округ</label></div>
+										<div class="cities__checkbox checkbox"><input type="checkbox" id="city-0012"><label for="city-0012">Загородный</label></div>
+									</div>
+									<div class="col">
+										<div class="cities__checkbox checkbox"><input type="checkbox" id="city-0013"><label for="city-0013">Воронежский</label></div>
+										<div class="cities__checkbox checkbox"><input type="checkbox" id="city-0014"><label for="city-0014">Ставропольский округ</label></div>
+										<div class="cities__checkbox checkbox"><input type="checkbox" id="city-0015"><label for="city-0015">Загородный</label></div>
+										<div class="cities__checkbox checkbox"><input type="checkbox" id="city-0016"><label for="city-0016">Наверовский</label></div>
+										<div class="cities__checkbox checkbox"><input type="checkbox" id="city-0017"><label for="city-0017">Ставропольский округ</label></div>
+										<div class="cities__checkbox checkbox"><input type="checkbox" id="city-0018"><label for="city-0018">Загородный</label></div>
+									</div>
+									<div class="col">
+										<div class="cities__checkbox checkbox"><input type="checkbox" id="city-0019"><label for="city-0019">Воронежский</label></div>
+										<div class="cities__checkbox checkbox"><input type="checkbox" id="city-0020"><label for="city-0020">Ставропольский округ</label></div>
+										<div class="cities__checkbox checkbox"><input type="checkbox" id="city-0021"><label for="city-0021">Загородный</label></div>
+										<div class="cities__checkbox checkbox"><input type="checkbox" id="city-0022"><label for="city-0022">Наверовский</label></div>
+										<div class="cities__checkbox checkbox"><input type="checkbox" id="city-0023"><label for="city-0023">Ставропольский округ</label></div>
+										<div class="cities__checkbox checkbox"><input type="checkbox" id="city-0024"><label for="city-0024">Загородный</label></div>
+									</div>
+								</div>
+							</div>
+							<div class="cities__btns">
+								<div class="cities__btns-all">Выбрать все</div>
+								<div class="cities__btns-clear"><i class="icon icon-cross-black"></i> <span>Очистить фильтры</span></div>
+							</div>
+							<div class="cities__show"><div class="button button_dark">Показать 330 новостроек</div></div>
+						</div>
+		            </div>
+		        </div>
+		    </div>
+		    <div class="popup__bg"></div>
+		</div>
+		<div class="popup popup_question">
+		    <div class="popup__container container">
+		        <div class="popup__window">
+		            <div class="popup__head">
+		                <div class="popup__title"><span class="icon-wrap"><i class="icon icon-question"></i></span>задать вопрос</div>
+		                <div class="popup__close"><i class="icon icon-cross-white"></i></div>
+		            </div>
+		            <div class="popup__body">
+						<p><span>Ваше имя</span><input type="text" class="input input_lefter input_radius"></p>
+						<p><span>Ваш номер телефона</span><input type="text" class="input input_lefter input_radius"></p>
+						<p><span>Вопрос</span><textarea name="" id="" cols="30" rows="10" class="textarea"></textarea></p>
+						<p><span></span><button class="button button_blue">отправить вопрос</button></span></p>
+		            </div>
+		        </div>
+		    </div>
+		    <div class="popup__bg"></div>
+		</div>
+		<header class="header container">
+			<div class="panel row">
+				<div class="panel__logo logo col">
+					<a href=""><img src="upload/logo/logo-icon.png" alt="" class="logo__icon"><img src="upload/logo/logo-text.png" alt="" class="logo__text"></a>
+				</div>
+				<div class="panel__desc col">Узнайте больше о конструктивном сохранении хорошо <br />информированного совместного подхода.</div>
+				<div class="panel__btns col">
+					<div class="city-select">
+						<span><i class="icon icon-marker-1"></i>Ваш город</span>
+						<div class="select">
+							<p class="select__title"></p>
+							<div class="select__list-wrap"><ul class="select__list"></ul></div>
+							<select class="select__parsing" name="">
+								<option value="1" selected="selected">Адыгея</option>
+								<option value="2">Архангельская обл.</option>
+								<option value="3">Астраханская обл.</option>
+								<option value="4">Башкортостан</option>
+								<option value="5">Белгородская обл.</option>
+								<option value="6">Брянская обл.</option>
+								<option value="7">Владимирская обл.</option>
+								<option value="8">Архангельская область</option>
+								<option value="9">Астраханская область</option>
+								<option value="10">Адыгея</option>
+								<option value="11">Архангельская обл.</option>
+								<option value="12">Астраханская обл.</option>
+								<option value="13">Башкортостан</option>
+								<option value="14">Белгородская обл.</option>
+								<option value="15">Брянская обл.</option>
+								<option value="16">Владимирская обл.</option>
+								<option value="17" selected="selected">Краснодар</option>
+							</select>
+						</div>
+					</div>
+					<div class="btn-group">
+						<a class="favorites button button_blue"><i class="icon icon-star"></i>Избранное</a>
+						<a class="viewed button button_blue"><i class="icon icon-eye"></i>Просмотренное</a>
+					</div>
+				</div>
+			</div>
+			<div class="nav">
+				<ul>
+					<li><a href="">Главная</a></li><li class="nav__item_select"><a href="">Новостройки</a></li><li><a href="">Коттеджные поселки</a></li><li><a href="">Застройщики</a></li>
+				</ul>
+			</div>
+			<div class="search row w2">
+				<div class="search__left col">
+					<div class="row">
+						<div class="search__type select">
+							<p class="select__title"></p>
+							<div class="select__list-wrap"><ul class="select__list"></ul></div>
+							<select class="select__parsing" name="">
+								<option value="1" selected="selected">Новостройки</option>
+								<option value="2">Коттеджные поселки</option>
+							</select>
+						</div>
+						<div class="search__rooms radio-line">
+							<p class="radio-line__title">комнат</p>
+							<div class="radio-line__item"><input type="radio" id="rooms-studio" name="rooms"><label for="rooms-studio">Студия</label></div>
+							<div class="radio-line__item"><input type="radio" id="rooms-1" name="rooms"><label for="rooms-1">1</label></div>
+							<div class="radio-line__item"><input type="radio" id="rooms-2" name="rooms"><label for="rooms-2">2</label></div>
+							<div class="radio-line__item"><input type="radio" id="rooms-3" name="rooms"><label for="rooms-3">3</label></div>
+							<div class="radio-line__item"><input type="radio" id="rooms-4" name="rooms"><label for="rooms-4">4+</label></div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="search__deadline radio-line">
+							<p class="radio-line__title">Срок сдачи</p>
+							<div class="radio-line__item"><input type="radio" id="deadline-was-passed" name="deadline"><label for="deadline-was-passed">Сдан</label></div>
+							<div class="radio-line__item"><input type="radio" id="deadline-2017" name="deadline"><label for="deadline-2017">2017</label></div>
+							<div class="radio-line__item"><input type="radio" id="deadline-2018" name="deadline"><label for="deadline-2018">2018</label></div>
+							<div class="radio-line__item"><input type="radio" id="deadline-2019" name="deadline"><label for="deadline-2019">2019</label></div>
+							<div class="radio-line__item"><input type="radio" id="deadline-2020" name="deadline"><label for="deadline-2020">2020+</label></div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="search__district select">
+							<p class="select__title">Округ</p>
+							<div class="select__list-wrap"><ul class="select__list"></ul></div>
+							<select class="select__parsing" name="">
+								<option value="1">Адыгея</option>
+								<option value="2">Архангельская обл.</option>
+								<option value="3">Астраханская обл.</option>
+								<option value="4">Башкортостан</option>
+								<option value="5">Белгородская обл.</option>
+								<option value="6">Брянская обл.</option>
+								<option value="7">Владимирская обл.</option>
+								<option value="8">Архангельская область</option>
+								<option value="9">Астраханская область</option>
+								<option value="10">Адыгея</option>
+								<option value="11">Архангельская обл.</option>
+								<option value="12">Астраханская обл.</option>
+								<option value="13">Башкортостан</option>
+								<option value="14">Белгородская обл.</option>
+								<option value="15">Брянская обл.</option>
+								<option value="16">Владимирская обл.</option>
+								<option value="17">Краснодар</option>
+							</select>
+						</div>
+						<div class="search__city-district select">
+							<p class="select__title">Район</p>
+							<div class="select__list-wrap"><ul class="select__list"></ul></div>
+							<select class="select__parsing" name="">
+								<option value="1">Ленинский</option>
+								<option value="2">Советский</option>
+								<option value="2">Левобережный</option>
+								<option value="3">Северный</option>
+							</select>
+						</div>
+					</div>
+					<div class="row">
+						<div class="search__desc">Спецпредложение: Квартиры в Подмосковье от 45 000 руб./м2. Успей купить!</div>
+					</div>
+				</div>
+				<div class="search__right col">
+					<div class="row">
+						<div class="search__price">
+							<div class="search__price-text">ЦЕНА, руб.</div>
+							<input class="search__price-input input input_lefter" placeholder="30000">
+							<div class="search__range"><div id="search__price-slider"></div></div>
+							<input class="search__price-input input input_righter" placeholder="1 000 000">
+							<div class="search__checkbox checkbox"><input type="checkbox" id="share"><label for="share">акция</label></div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="search__area">
+							<div class="search__area-text">ПЛОЩАДЬ, м<sup>2</sup></div>
+							<input class="search__area-input input input_lefter" placeholder="30000">
+							<div class="search__range"><div id="search__area-slider"></div></div>
+							<input class="search__area-input input input_righter" placeholder="1 000 000">
+							<div class="search__checkbox checkbox checkbox_blue"><input type="checkbox" id="repairs"><label for="repairs">ремонт</label></div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="search__form">
+							<input type="text" class="search__form-input" placeholder="Поиск"><button class="button button_blue"><i class="icon icon-lens-white"></i><span>756 новостроек</span></button>
+						</div>
+					</div>
+					<div class="row">
+						<div class="search__advanced"><span>Расширенный поиск</span><i class="icon icon-arrow-down-black"></i></div>
+					</div>
+				</div>
+			</div>
+			<script>
+				var slider = document.getElementById('search__price-slider');
+				noUiSlider.create(slider, {
+				    start: [20, 80],
+				    connect: true,
+				    range: {
+				        'min': 0,
+				        'max': 100
+				    }
+				});
+
+
+				var slider = document.getElementById('search__area-slider');
+				noUiSlider.create(slider, {
+				    start: [20, 80],
+				    connect: true,
+				    range: {
+				        'min': 0,
+				        'max': 100
+				    }
+				});
+			</script>
+		</header>
+		<div class="main container">
+			<aside class="aside aside_left">
+				<div class="nav-block">
+					<div class="nav-block__title"><i class="icon icon-additionally"></i>Дополнительно</div>
+					<div class="nav-block__content">
+						<ul>
+							<li><a href="">Готовые подборки <span>(356)</span></a></li>
+							<li><a href="">Карта новостроек  <span>(156)</span></a></li>
+							<li><a href="">Ипотечный центр <span>(216)</span></a></li>
+							<li><a href="">Новости и статьи <span>(4156)</span></a></li>
+							<li><a href="">Акции и статьи</a></li>
+							<li><a href="">Рекомендуем</a></li>
+						</ul>
+					</div> 
+				</div>
+				<div class="nav-block">
+					<div class="nav-block__title"><i class="icon icon-star-o"></i>Класс жилья</div>
+					<div class="nav-block__content">
+						<ul>
+							<li><a href="">Эконом <span>(1256)</span></a></li>
+							<li><a href="">Комфорт <span>(156)</span></a></li>
+							<li><a href="">Бизнес <span>(356)</span></a></li>
+							<li><a href="">Премиум <span>(156)</span></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="nav-block">
+					<div class="nav-block__title"><i class="icon icon-marker-map"></i>Расположение</div>
+					<div class="nav-block__content">
+						<div class="tabs">
+						    <ul class="tabs__nav">
+						        <li class="tabs__nav-item tabs__nav-item_select" data-tab="location-1">Округ</li>
+						        <li class="tabs__nav-item" data-tab="location-2">Район</li>
+						        <li class="tabs__nav-item" data-tab="location-3">Улица</li>
+						    </ul>
+						    <div class="tabs__content scrollbar">
+						        <div class="tabs__tab" id="location-1">
+						        	<ul>
+										<li><a href="">Центр <span>(1256)</span></a></li>
+										<li><a href="">ГМР <span>(156)</span></a></li>
+										<li><a href="">ЮМР <span>(356)</span></a></li>
+										<li><a href="">СМР <span>(156)</span></a></li>
+										<li><a href="">СМР <span>(156)</span></a></li>
+										<li><a href="">Центр <span>1256</span></a></li>
+										<li><a href="">ГМР <span>(156)</span></a></li>
+										<li><a href="">ЮМР <span>(356)</span></a></li>
+										<li><a href="">СМР <span>(156)</span></a></li>
+										<li><a href="">СМР <span>(156)</span></a></li>
+									</ul>
+						        </div>
+						        <div class="tabs__tab" id="location-2">
+						        	<ul>
+										<li><a href="">Ленинский <span>(58)</span></a></li>
+										<li><a href="">Советский <span>(2)</span></a></li>
+										<li><a href="">Левобережный <span>(14)</span></a></li>
+										<li><a href="">Северный <span>(65)</span></a></li>
+										<li><a href="">Ленинский <span>(58)</span></a></li>
+										<li><a href="">Советский <span>(2)</span></a></li>
+										<li><a href="">Левобережный <span>(14)</span></a></li>
+										<li><a href="">Северный <span>(65)</span></a></li>
+									</ul>
+						        </div>
+						        <div class="tabs__tab" id="location-3">
+						        	<ul>
+										<li><a href="">ул. 30-лет Октября <span>(1256)</span></a></li>
+										<li><a href="">ул. Ворошилова <span>(356)</span></a></li>
+										<li><a href="">ул. Победы <span>(531)</span></a></li>
+										<li><a href="">ул. Бахметьева<span>(156)</span></a></li>
+										<li><a href="">ул. 30-лет Октября <span>1256</span></a></li>
+										<li><a href="">ул. Ворошилова <span>(356)</span></a></li>
+										<li><a href="">ул. Победы <span>(531)</span></a></li>
+										<li><a href="">ул. Бахметьева<span>(156)</span></a></li>
+									</ul>
+						        </div>
+						    </div>
+						</div>
+					</div>
+				</div>
+				<div class="nav-block">
+					<div class="nav-block__title"><i class="icon icon-heart"></i>Популярные запросы</div>
+					<div class="nav-block__content">
+						<ul class="scrollbar mah165">
+							<li><a href="">Дешевые квартиры <span>(56)</span></a></li>
+							<li><a href="">Однокомнатные квартиры <span>(156)</span></a></li>
+							<li><a href="">Квартиры в ипотеку <span>(16)</span></a></li>
+							<li><a href="">В ипотеку <span>(216)</span></a></li>
+							<li><a href="">Квартиры в ипотеку <span>(16)</span></a></li>
+							<li><a href="">Дешевые квартиры <span>(56)</span></a></li>
+							<li><a href="">Однокомнатные квартиры <span>(156)</span></a></li>
+							<li><a href="">Квартиры в ипотеку <span>(16)</span></a></li>
+							<li><a href="">В ипотеку <span>(216)</span></a></li>
+							<li><a href="">Квартиры в ипотеку <span>(16)</span></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="sentences">
+					<a href="" class="sentence">
+						<div class="sentence__img"><img src="upload/sentence/1.jpg" alt=""></div>
+						<div class="sentence__content">
+							<div class="sentence__title">Скидки до 30% в ЖК «Зеленоградский»! Только в ноябре</div>
+							<div class="sentence__desc">Дом сдан! От 46 000 руб. /м<sup>2</sup></div>
+						</div>
+					</a>
+					<a href="" class="sentence">
+						<div class="sentence__img"><img src="upload/sentence/1.jpg" alt=""></div>
+						<div class="sentence__content">
+							<div class="sentence__title">Скидки до 30% в ЖК «Зеленоградский»! Только в ноябре</div>
+							<div class="sentence__desc">Дом сдан! От 46 000 руб. /м<sup>2</sup></div>
+						</div>
+					</a>
+					<div class="sentences__all"><a href=""><span>Все предложения</span><i class="icon icon-arrow-right-black"></i></a></div>
+				</div>
+			</aside>
+			<div class="content">
+				<section class="section">
+					<div class="card">
+						<div class="row">
+							<div class="card__img col"><img src="upload/banks/sberbank.jpg" alt=""></div>
+							<div class="card__content col">
+								<h2 class="card__title">Сбербанк</h2>
+								<div class="card__data">
+									<p><span>Дата создания</span>2016</p>
+									<p><span>Адрес офиса</span>Центр (Табачка)</p>
+									<p><span>Телефон</span>8-918-154-68-95</p>
+									<p><span>Официальный сайт</span><a href="" target="_blank">www.sberbank.ru</a></p>
+									<p class="on-the-map"><span><a href="">Вид на карте</a></span></p>
+								</div>
+							</div>
+
+						</div>
+						<div class="card__text">
+							<p>Узнайте больше о сохранения, наш позитивный, хорошо информированного, совместного подхода к сохранению.</p>
+							<p>Узнайте больше о сохранения, наш позитивный, хорошо информированного, совместного подхода к сохранению и наших принципов. Узнайте больше о конструктивном сохранения. Узнайте больше о сохранения, наш позитивный, хорошо информированного, совместного подхода к сохранению.</p>
+							<p>знайте больше о сохранения, наш позитивный, хорошо информированного, совместного подхода к сохранению и наших руководящих принципов. Узнайте больше о конструктивном сохранения. Узнайте больше о сохранения, наш позитивный, хорошо информированного, совместного подхода к сохранению. Узнайте больше о сохранения, наш позитивный, хорошо информированного, совместного подхода к сохранению и наших руководящих принципов. Узнайте больше о конструктивном сохранения. Узнайте больше о сохранения, наш позитивный. Узнайте больше о сохранения, наш позитивный, хорошо информированного, совместного подхода к сохранению и наших руководящих принципов. Узнайте больше о конструктивном сохранения.</p>
+							<p>Узнайте больше о сохранения, наш позитивный, хорошо информированного, совместного подхода к сохранению.</p>
+							<p>Узнайте больше о сохранения, наш позитивный, хорошо информированного, совместного подхода к сохранению и наших руководящих принципов. Узнайте больше о конструктивном сохранения. Узнайте больше о сохранения, наш позитивный, хорошо информированного, совместного подхода к сохранению.</p>
+							<p>Узнайте больше о сохранения, наш позитивный, хорошо информированного, совместного подхода к сохранению и наших руководящих принципов. Узнайте больше о конструктивном сохранения. Узнайте больше о сохранения, наш позитивный, хорошо информированного, совместного подхода к сохранению. Узнайте больше о сохранения, наш позитивный, хорошо информированного, совместного подхода к сохранению и наших руководящих принципов. Узнайте больше о конструктивном сохранения. Узнайте больше о сохранения, наш позитивный. Узнайте больше о сохранения, наш позитивный, хорошо информированного, совместного подхода к сохранению и наших руководящих принципов. Узнайте больше о конструктивном сохранения.</p>
+						</div>
+						
+						<div class="card__title-main title title_icons"><h1>новостройки застройщика Девеломпмент</h1> <span>(9)</span></div>
+						<div class="objects-slider slick-nav">
+							<div class="object-slider__item">
+								<div class="object">
+									<div class="object__img">
+										<img src="upload/objects/1.jpg" alt="">
+										<div class="object__label label">Рекомендуем</div>
+										<div class="object__favorite"><i class="icon icon-star-yellow"></i></div>
+										<div class="object__counts">
+											<div class="object__count object__photos">8</div>
+											<div class="object__count object__videos">2</div>
+											<div class="object__count object__comments">10</div>
+										</div>
+										<!-- <div class="object__share">акция</div> -->
+									</div>
+									<div class="object__content">
+										<div class="object__title"><a href="">ЖК Симфония</a></div>
+										<div class="object__text">
+											<p><i class="icon icon-marker-2"></i>г. Краснодар, р-н ЧМР, ул. Ставропольская</p>
+											<p><i class="icon icon-calendar"></i>Сдача: 1 кв 2016 г. – 2 кв. 2017 г.</p>
+										</div>
+										<div class="object__nums row">
+											<div class="object__price col">от <span>45 000</span><i class="icon icon-ruble"></i>/м<sup>2</sup></div>
+											<div class="object__area col">до <span>1 245 000</span><i class="icon icon-ruble"></i>/м<sup>2</sup></div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="object-slider__item">
+								<div class="object">
+									<div class="object__img">
+										<img src="upload/objects/1.jpg" alt="">
+										<div class="object__label label">Рекомендуем</div>
+										<div class="object__favorite"><i class="icon icon-star-yellow"></i></div>
+										<div class="object__counts">
+											<div class="object__count object__photos">8</div>
+											<div class="object__count object__videos">2</div>
+											<div class="object__count object__comments">10</div>
+										</div>
+										<!-- <div class="object__share">акция</div> -->
+									</div>
+									<div class="object__content">
+										<div class="object__title"><a href="">ЖК Симфония</a></div>
+										<div class="object__text">
+											<p><i class="icon icon-marker-2"></i>г. Краснодар, р-н ЧМР, ул. Ставропольская</p>
+											<p><i class="icon icon-calendar"></i>Сдача: 1 кв 2016 г. – 2 кв. 2017 г.</p>
+										</div>
+										<div class="object__nums row">
+											<div class="object__price col">от <span>45 000</span><i class="icon icon-ruble"></i>/м<sup>2</sup></div>
+											<div class="object__area col">до <span>1 245 000</span><i class="icon icon-ruble"></i>/м<sup>2</sup></div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="object-slider__item">
+								<div class="object">
+									<div class="object__img">
+										<img src="upload/objects/1.jpg" alt="">
+										<div class="object__label label">Рекомендуем</div>
+										<div class="object__favorite"><i class="icon icon-star-yellow"></i></div>
+										<div class="object__counts">
+											<div class="object__count object__photos">8</div>
+											<div class="object__count object__videos">2</div>
+											<div class="object__count object__comments">10</div>
+										</div>
+										<!-- <div class="object__share">акция</div> -->
+									</div>
+									<div class="object__content">
+										<div class="object__title"><a href="">ЖК Симфония</a></div>
+										<div class="object__text">
+											<p><i class="icon icon-marker-2"></i>г. Краснодар, р-н ЧМР, ул. Ставропольская</p>
+											<p><i class="icon icon-calendar"></i>Сдача: 1 кв 2016 г. – 2 кв. 2017 г.</p>
+										</div>
+										<div class="object__nums row">
+											<div class="object__price col">от <span>45 000</span><i class="icon icon-ruble"></i>/м<sup>2</sup></div>
+											<div class="object__area col">до <span>1 245 000</span><i class="icon icon-ruble"></i>/м<sup>2</sup></div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="object-slider__item">
+								<div class="object">
+									<div class="object__img">
+										<img src="upload/objects/1.jpg" alt="">
+										<div class="object__label label">Рекомендуем</div>
+										<div class="object__favorite"><i class="icon icon-star-yellow"></i></div>
+										<div class="object__counts">
+											<div class="object__count object__photos">8</div>
+											<div class="object__count object__videos">2</div>
+											<div class="object__count object__comments">10</div>
+										</div>
+										<!-- <div class="object__share">акция</div> -->
+									</div>
+									<div class="object__content">
+										<div class="object__title"><a href="">ЖК Симфония</a></div>
+										<div class="object__text">
+											<p><i class="icon icon-marker-2"></i>г. Краснодар, р-н ЧМР, ул. Ставропольская</p>
+											<p><i class="icon icon-calendar"></i>Сдача: 1 кв 2016 г. – 2 кв. 2017 г.</p>
+										</div>
+										<div class="object__nums row">
+											<div class="object__price col">от <span>45 000</span><i class="icon icon-ruble"></i>/м<sup>2</sup></div>
+											<div class="object__area col">до <span>1 245 000</span><i class="icon icon-ruble"></i>/м<sup>2</sup></div>
+										</div>
+									</div>
+								</div>
+							</div>
+	 					</div>
+	 					<div class="objects-slider slick-nav">
+							<div class="object-slider__item">
+								<div class="object">
+									<div class="object__img">
+										<img src="upload/objects/1.jpg" alt="">
+										<div class="object__label label">Рекомендуем</div>
+										<div class="object__favorite"><i class="icon icon-star-yellow"></i></div>
+										<div class="object__counts">
+											<div class="object__count object__photos">8</div>
+											<div class="object__count object__videos">2</div>
+											<div class="object__count object__comments">10</div>
+										</div>
+										<!-- <div class="object__share">акция</div> -->
+									</div>
+									<div class="object__content">
+										<div class="object__title"><a href="">ЖК Симфония</a></div>
+										<div class="object__text">
+											<p><i class="icon icon-marker-2"></i>г. Краснодар, р-н ЧМР, ул. Ставропольская</p>
+											<p><i class="icon icon-calendar"></i>Сдача: 1 кв 2016 г. – 2 кв. 2017 г.</p>
+										</div>
+										<div class="object__nums row">
+											<div class="object__price col">от <span>45 000</span><i class="icon icon-ruble"></i>/м<sup>2</sup></div>
+											<div class="object__area col">до <span>1 245 000</span><i class="icon icon-ruble"></i>/м<sup>2</sup></div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="object-slider__item">
+								<div class="object">
+									<div class="object__img">
+										<img src="upload/objects/1.jpg" alt="">
+										<div class="object__label label">Рекомендуем</div>
+										<div class="object__favorite"><i class="icon icon-star-yellow"></i></div>
+										<div class="object__counts">
+											<div class="object__count object__photos">8</div>
+											<div class="object__count object__videos">2</div>
+											<div class="object__count object__comments">10</div>
+										</div>
+										<!-- <div class="object__share">акция</div> -->
+									</div>
+									<div class="object__content">
+										<div class="object__title"><a href="">ЖК Симфония</a></div>
+										<div class="object__text">
+											<p><i class="icon icon-marker-2"></i>г. Краснодар, р-н ЧМР, ул. Ставропольская</p>
+											<p><i class="icon icon-calendar"></i>Сдача: 1 кв 2016 г. – 2 кв. 2017 г.</p>
+										</div>
+										<div class="object__nums row">
+											<div class="object__price col">от <span>45 000</span><i class="icon icon-ruble"></i>/м<sup>2</sup></div>
+											<div class="object__area col">до <span>1 245 000</span><i class="icon icon-ruble"></i>/м<sup>2</sup></div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="object-slider__item">
+								<div class="object">
+									<div class="object__img">
+										<img src="upload/objects/1.jpg" alt="">
+										<div class="object__label label">Рекомендуем</div>
+										<div class="object__favorite"><i class="icon icon-star-yellow"></i></div>
+										<div class="object__counts">
+											<div class="object__count object__photos">8</div>
+											<div class="object__count object__videos">2</div>
+											<div class="object__count object__comments">10</div>
+										</div>
+										<!-- <div class="object__share">акция</div> -->
+									</div>
+									<div class="object__content">
+										<div class="object__title"><a href="">ЖК Симфония</a></div>
+										<div class="object__text">
+											<p><i class="icon icon-marker-2"></i>г. Краснодар, р-н ЧМР, ул. Ставропольская</p>
+											<p><i class="icon icon-calendar"></i>Сдача: 1 кв 2016 г. – 2 кв. 2017 г.</p>
+										</div>
+										<div class="object__nums row">
+											<div class="object__price col">от <span>45 000</span><i class="icon icon-ruble"></i>/м<sup>2</sup></div>
+											<div class="object__area col">до <span>1 245 000</span><i class="icon icon-ruble"></i>/м<sup>2</sup></div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="object-slider__item">
+								<div class="object">
+									<div class="object__img">
+										<img src="upload/objects/1.jpg" alt="">
+										<div class="object__label label">Рекомендуем</div>
+										<div class="object__favorite"><i class="icon icon-star-yellow"></i></div>
+										<div class="object__counts">
+											<div class="object__count object__photos">8</div>
+											<div class="object__count object__videos">2</div>
+											<div class="object__count object__comments">10</div>
+										</div>
+										<!-- <div class="object__share">акция</div> -->
+									</div>
+									<div class="object__content">
+										<div class="object__title"><a href="">ЖК Симфония</a></div>
+										<div class="object__text">
+											<p><i class="icon icon-marker-2"></i>г. Краснодар, р-н ЧМР, ул. Ставропольская</p>
+											<p><i class="icon icon-calendar"></i>Сдача: 1 кв 2016 г. – 2 кв. 2017 г.</p>
+										</div>
+										<div class="object__nums row">
+											<div class="object__price col">от <span>45 000</span><i class="icon icon-ruble"></i>/м<sup>2</sup></div>
+											<div class="object__area col">до <span>1 245 000</span><i class="icon icon-ruble"></i>/м<sup>2</sup></div>
+										</div>
+									</div>
+								</div>
+							</div>
+	 					</div>
+	 					<div class="objects-slider slick-nav">
+							<div class="object-slider__item">
+								<div class="object">
+									<div class="object__img">
+										<img src="upload/objects/1.jpg" alt="">
+										<div class="object__label label">Рекомендуем</div>
+										<div class="object__favorite"><i class="icon icon-star-yellow"></i></div>
+										<div class="object__counts">
+											<div class="object__count object__photos">8</div>
+											<div class="object__count object__videos">2</div>
+											<div class="object__count object__comments">10</div>
+										</div>
+										<!-- <div class="object__share">акция</div> -->
+									</div>
+									<div class="object__content">
+										<div class="object__title"><a href="">ЖК Симфония</a></div>
+										<div class="object__text">
+											<p><i class="icon icon-marker-2"></i>г. Краснодар, р-н ЧМР, ул. Ставропольская</p>
+											<p><i class="icon icon-calendar"></i>Сдача: 1 кв 2016 г. – 2 кв. 2017 г.</p>
+										</div>
+										<div class="object__nums row">
+											<div class="object__price col">от <span>45 000</span><i class="icon icon-ruble"></i>/м<sup>2</sup></div>
+											<div class="object__area col">до <span>1 245 000</span><i class="icon icon-ruble"></i>/м<sup>2</sup></div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="object-slider__item">
+								<div class="object">
+									<div class="object__img">
+										<img src="upload/objects/1.jpg" alt="">
+										<div class="object__label label">Рекомендуем</div>
+										<div class="object__favorite"><i class="icon icon-star-yellow"></i></div>
+										<div class="object__counts">
+											<div class="object__count object__photos">8</div>
+											<div class="object__count object__videos">2</div>
+											<div class="object__count object__comments">10</div>
+										</div>
+										<!-- <div class="object__share">акция</div> -->
+									</div>
+									<div class="object__content">
+										<div class="object__title"><a href="">ЖК Симфония</a></div>
+										<div class="object__text">
+											<p><i class="icon icon-marker-2"></i>г. Краснодар, р-н ЧМР, ул. Ставропольская</p>
+											<p><i class="icon icon-calendar"></i>Сдача: 1 кв 2016 г. – 2 кв. 2017 г.</p>
+										</div>
+										<div class="object__nums row">
+											<div class="object__price col">от <span>45 000</span><i class="icon icon-ruble"></i>/м<sup>2</sup></div>
+											<div class="object__area col">до <span>1 245 000</span><i class="icon icon-ruble"></i>/м<sup>2</sup></div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="object-slider__item">
+								<div class="object">
+									<div class="object__img">
+										<img src="upload/objects/1.jpg" alt="">
+										<div class="object__label label">Рекомендуем</div>
+										<div class="object__favorite"><i class="icon icon-star-yellow"></i></div>
+										<div class="object__counts">
+											<div class="object__count object__photos">8</div>
+											<div class="object__count object__videos">2</div>
+											<div class="object__count object__comments">10</div>
+										</div>
+										<!-- <div class="object__share">акция</div> -->
+									</div>
+									<div class="object__content">
+										<div class="object__title"><a href="">ЖК Симфония</a></div>
+										<div class="object__text">
+											<p><i class="icon icon-marker-2"></i>г. Краснодар, р-н ЧМР, ул. Ставропольская</p>
+											<p><i class="icon icon-calendar"></i>Сдача: 1 кв 2016 г. – 2 кв. 2017 г.</p>
+										</div>
+										<div class="object__nums row">
+											<div class="object__price col">от <span>45 000</span><i class="icon icon-ruble"></i>/м<sup>2</sup></div>
+											<div class="object__area col">до <span>1 245 000</span><i class="icon icon-ruble"></i>/м<sup>2</sup></div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="object-slider__item">
+								<div class="object">
+									<div class="object__img">
+										<img src="upload/objects/1.jpg" alt="">
+										<div class="object__label label">Рекомендуем</div>
+										<div class="object__favorite"><i class="icon icon-star-yellow"></i></div>
+										<div class="object__counts">
+											<div class="object__count object__photos">8</div>
+											<div class="object__count object__videos">2</div>
+											<div class="object__count object__comments">10</div>
+										</div>
+										<!-- <div class="object__share">акция</div> -->
+									</div>
+									<div class="object__content">
+										<div class="object__title"><a href="">ЖК Симфония</a></div>
+										<div class="object__text">
+											<p><i class="icon icon-marker-2"></i>г. Краснодар, р-н ЧМР, ул. Ставропольская</p>
+											<p><i class="icon icon-calendar"></i>Сдача: 1 кв 2016 г. – 2 кв. 2017 г.</p>
+										</div>
+										<div class="object__nums row">
+											<div class="object__price col">от <span>45 000</span><i class="icon icon-ruble"></i>/м<sup>2</sup></div>
+											<div class="object__area col">до <span>1 245 000</span><i class="icon icon-ruble"></i>/м<sup>2</sup></div>
+										</div>
+									</div>
+								</div>
+							</div>
+	 					</div>
+						<div class="button button_dark">Показать всех застройщиков <span>(256)</span><div class="button__plus"><i class="icon icon-plus"></i></div></div>
+						<div class="return"><a href=""><i class="icon icon-return"></i><span>Вернуться в каталог застройщиков</span></a></div>
+						</div>
+				</section>
+			</div>
+		</div>
+		<footer class="footer">
+			<div class="footer__top">
+				<div class="container row">
+					<div class="footer__logo logo col">
+						<a href=""><img src="upload/logo/logo-icon.png" alt="" class="logo__icon"><img src="upload/logo/logo-text.png" alt="" class="logo__text"></a>
+					</div>
+					<div class="footer__nav col">
+						<div class="footer__title">меню</div>
+						<ul>
+							<li><a href="">Главная</a></li>
+							<li><a href="">Новостройки </a></li>
+							<li><a href="">Коттеджные поселки</a></li>
+							<li><a href="">Застройщики</a></li>
+							<li><a href="">Избранное</a></li>
+							<li><a href="">Просмотренное</a></li>
+						</ul>
+					</div>
+					<div class="footer__nav col">
+						<div class="footer__title">дополнительное</div>
+						<ul>
+							<li><a href="">Готовые подборки  (356)</a></li>
+							<li><a href="">Карта новостроек  (156)</a></li>
+							<li><a href="">Ипотечный центр  (216)</a></li>
+							<li><a href="">Новости и статьи  (4156)</a></li>
+							<li><a href="">Акции и статьи</a></li>
+							<li><a href="">Рекомендуем</a></li>
+						</ul>
+					</div>
+					<div class="footer__other col">
+						<div class="footer__title">Мы в соцсетях</div>
+						<div class="footer__sn sn"><a href="" target="_blank"><i class="icon icon-sn-fb"></i></a><a href="" target="_blank"><i class="icon icon-sn-vk"></i></a><a href="" target="_blank"><i class="icon icon-sn-ok"></i></a><a href="" target="_blank"><i class="icon icon-sn-insta"></i></a></div>
+						<div class="footer__counters">
+							<ul>
+								<li></li>
+								<li></li>
+							</ul>
+						</div>
+					</div>
+					<div class="footer__go-top"><i class="icon icon-arrow-up"></i><span>Наверх</span></div>
+				</div>
+			</div>
+			<div class="footer__bottom">
+				<div class="container">
+					<div class="footer__copy">© Новостройки онлайн,  2016, все права защищены</div>
+				</div>
+			</div>
+		</footer>
+		<div id="go-top"><span>Наверх</span><i class="icon icon-arrow-right-black"></i></div>
+	</body>
+</html>
